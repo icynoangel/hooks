@@ -1,0 +1,21 @@
+{
+  "extends": "react-app",
+  "globals": {
+    "document": true,
+    "window": true,
+    "fetch": true,
+    "localStorage": true
+  },
+  "plugins": [
+    "react-hooks"
+  ],
+  "rules": {
+    "max-len": ["warn", 140, 4, {
+      "ignoreUrls": true,
+      "ignoreComments": true,
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true
+    }],
+    "react-hooks/rules-of-hooks": "error"
+  }
+}
